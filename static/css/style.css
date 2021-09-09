@@ -1,0 +1,78 @@
+
+.menu a
+{
+  border-style: solid; 
+  border-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+  float: left;
+  padding: 12px;
+  width: 15%;/*used to be 30*/
+  text-align: center;
+  font-family: Arial;
+  color: rgb(255, 255, 255);
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+hr
+{
+  height: 5px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: none;
+}
+.menu a:hover
+{
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+.menu
+{
+  background-color: #333333;
+  overflow: hidden;
+  border-radius: 10px;
+}
+body
+{
+  font-family: Arial;
+  color: black;
+}
+h1, h3
+{
+  text-align: center;
+}
+.topArea
+{
+  background-image: url("https://media.discordapp.net/attachments/789973054360256552/884209614130937896/cl13rpw9f9751.png?width=814&height=458");
+  font-size: 20px;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial;
+  padding: 0 15vw 0 15vw;
+}
+.button
+{
+  background-color: rgba(133, 133, 133, 0.815);
+  border-radius: 10px;
+  border: solid white;
+  font-size: 20px;
+  display: block;
+  font-family: Arial;
+  text-decoration: none;
+  padding: 10px;
+  width: 25%;
+  transition-duration: 0.4s;
+  color: white;
+}
+.button:hover
+{
+  transform: scale(1.2, 1.2);
+  background-color: white;
+  color: black;
+}
+.bod
+{
+  font-size: 20px;
+}
+
